@@ -24,7 +24,7 @@ Pyramid supports **Windows** and **Linux** distributions.
 - [x] Download JRE
 - [x] Start Minecraft
 - [x] Using Fabric
-- [x] Using NeoForge
+- [ ] Using NeoForge
 - [x] Ely.by account support
 - [ ] Using multiple accounts
 - [ ] ~UI~ TUI
