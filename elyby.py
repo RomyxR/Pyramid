@@ -33,7 +33,7 @@ def auth_elyby(username: str, password: str):
         print(f"Ошибка авторизации {username}: {e}")
         return {}
 
-def mc_account(type: str, username: str, password: str):
+def mc_account(type: str, username: str, password: str = None):
     match type:
         case "local": return {"username": username}
         case "elyby": return auth_elyby(username, password)
